@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "js-cookie": "^3.0.1",
@@ -27,6 +25,5 @@
     "gh-pages": "^5.0.0",
     "url-loader": "^4.1.1",
     "vite": "^4.2.0"
-  },
-  "homepage": "http://raflisusanto.github.io/specifit-admin-fe-preview"
+  }
 }
